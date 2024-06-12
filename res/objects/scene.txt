@@ -1,0 +1,28 @@
+## The axis offsets of each object in the scene.
+
+# object1-酒杯
+0.0 0.0 0.0
+
+# object2-小凳子
+-10.0 0.0 10.0
+
+# object3-台灯
+9.3 0.0 7.0
+
+# object4-正方体
+5.3 5.0 -5.0
+
+# object5-圆柱
+-10.3 5.0 -10.0
+
+# object6-圆球
+-8.3 5.0 10.3
+
+# object7-锥体
+8.9 5.0 -12.8
+
+# object8-六边形柱体
+-2.3 5.0 12.3
+
+# object9-环
+12.3 5.6 8.9

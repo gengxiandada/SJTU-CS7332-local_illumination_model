@@ -1,0 +1,9 @@
+# Lights
+
+# Each row is the three-dimensional coordinate of a point.
+
+x/y/z: -10.2/16.5/-10.2
+#x/y/z: -12.2/11.0/2.2
+x/y/z: 15.0/12.3/9.4
+x/y/z: 12.2/17.5/-7.2
+#x/y/z: 15/6/15
