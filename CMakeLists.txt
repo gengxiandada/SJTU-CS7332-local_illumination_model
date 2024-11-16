@@ -38,8 +38,10 @@ add_executable(Demo
 add_executable(test
         test.cpp)
 
-target_link_libraries(App glfw3 GLEW "-framework Cocoa" "-framework OpenGL" "-framework IOKit")
-target_link_libraries(Demo glfw.3 glew "-framework Cocoa" "-framework OpenGL" "-framework IOKit")
-target_link_libraries(test glfw.3 glew "-framework Cocoa" "-framework OpenGL" "-framework IOKit")
+# dynamic linking
+target_link_libraries(App glfw.3 glew.2.2 "-framework Cocoa" "-framework OpenGL" "-framework IOKit")
+# static linking
+target_link_libraries(Demo glfw3 glew.2.2 "-framework Cocoa" "-framework OpenGL" "-framework IOKit")
+target_link_libraries(test glfw3 glew.2.2 "-framework Cocoa" "-framework OpenGL" "-framework IOKit")
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)

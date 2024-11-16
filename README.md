@@ -30,7 +30,7 @@ $I_\lambda = I_{a \lambda}k_a + \sum_{1 \leq i \leq m} S_i[k_d L_{d\lambda}(l \c
 │   ├── VertexBuffer.h
 │   └── VertexBufferLayout.h
 ├── lib
-│   ├── libGLEW.dylib
+│   ├── libGLEW.2.2.dylib
 │   ├── libglfw.3.dylib
 │   └── libglfw3.a
 ├── res
@@ -77,8 +77,8 @@ cmake version 3.28.2
 $ mkdir build
 $ cd build
 $ cmake ..
-$ make
-$ ..bin/App
+$ make App
+$ ../bin/App
 ```
 
 ## 调整视角
@@ -90,3 +90,8 @@ W: 上，S: 下，A: 左，D:右
 up: 下，down: 上，left: 左，right:右
 
 ## 场景布局修改可通过自定义scene.txt文件实现
+
+## 参考
+github项目：https://github.com/lym01803/toy-local-illumination-model
+
+视频教程：https://www.bilibili.com/video/BV1MJ411u7Bc/?spm_id_from=333.337.search-card.all.click&vd_source=5f44bbaeca42514008ef3db14ea107cf
